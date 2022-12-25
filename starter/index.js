@@ -103,9 +103,11 @@ for(let i = 0; i < finances.length; i ++) {
 }
 
 // Calculate the average of profits over the entire period. 
-totalChange = for (let i = 0; i < finances.length; i++) {
-    finances[i][1] - finances [i-1][1];
-}
+var totalChange = function totalChange() {
+    for (let i = 0; i < finances.length; i++) {
+        return finances[i][1] - finances [i-1][1];
+    }
+} 
 average = totalChange / (finances.length - 1);
 
 // Calculate the total increase and decrease in profits over the period.
