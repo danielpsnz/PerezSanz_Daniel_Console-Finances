@@ -9,7 +9,7 @@ In this project I introduce a real-world application to JavaScript. The aim is t
 
 The portfolio should be seen as below: 
 
-![alt text](/starter/assets/screenshot.png)
+![alt text](/assets/screenshot.png)
 
 
 ## Credits
