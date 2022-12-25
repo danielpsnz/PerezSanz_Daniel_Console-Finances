@@ -99,5 +99,29 @@ var average = 0;
 
 // Calculate the total amount of net profit or losses over the entire period. 
 for(let i = 0; i < finances.length; i ++) {
-    return total += finances[i][1];
+    total += finances[i][1];
 }
+
+// Calculate the average of profits over the entire period. 
+totalChange = for (let i = 0; i < finances.length; i++) {
+    finances[i][1] - finances [i-1][1];
+}
+average = totalChange / (finances.length - 1);
+
+// Calculate the total increase and decrease in profits over the period.
+if (totalChange[i] > greatestIncrease[1]) {
+    greatestIncrease = [finances[i][0], totalChange[i]];
+};
+
+if (totalChange[i] < greatestDecrease[1]) {
+    greatestDecrease = [finances[i][0], totalChange[i]];
+};
+
+// Prints to the console
+console.log("Financial Analysis");
+console.log("----------------------------");
+console.log("Total Months: " + totalMonths);
+console.log("Total: " + total);
+console.log("Average Change: " + average);
+console.log("Greatest Increase in Profits: " + greatestIncrease);
+console.log("Greatest Decrease in Profits: " + greatestDecrease);
