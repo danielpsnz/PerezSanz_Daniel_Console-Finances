@@ -21,4 +21,4 @@ The portfolio should be seen as below:
 
 The license used is MIT License. Here is more information about it. 
 
-[https://github.com/danielpsnz/PerezSanzDaniel_Portfolio/blob/main/LICENSE)
+[https://github.com/danielpsnz/PerezSanz_Daniel_Console-Finances/blob/main/LICENSE)
