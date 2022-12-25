@@ -3,13 +3,13 @@ Challenge Week 4: JavaScript Console-Finances
 
 ## Description 
 
-In this project I introduce a real-world application to JavaScript. The aim is to create a console-finance analysing the financial records of a company. You can see a demo [here]().
+In this project I introduce a real-world application to JavaScript. The aim is to create a console-finance analysing the financial records of a company. You can see a demo [here](https://danielpsnz.github.io/PerezSanz_Daniel_Console-Finances/).
 
 ## Usage 
 
 The portfolio should be seen as below: 
 
-![alt text]()
+![alt text](/starter/assets/screenshot.png)
 
 
 ## Credits
